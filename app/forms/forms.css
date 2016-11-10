@@ -1,0 +1,34 @@
+section {
+    background: white;
+}
+.right-column {
+    width: 60%;
+    padding: 0 20px;
+    float: left;
+}
+.left-column {
+    width: 30%;
+    float: right;
+    border-left: 2px solid gray;
+    padding-left: 2px;
+}
+form > div {
+    padding: 10px 0;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+input[type="text"] {
+    padding: 5px 3px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 36px;
+    margin: 8px 0;
+    font-size: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.18);
+    font: inherit;
+    outline: none;
+}
